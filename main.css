@@ -1,0 +1,29 @@
+header {
+    display: inline-block;
+    width:1000px;
+    margin-left: calc(50% - 500px);
+    background-color: yellow;
+}
+
+img {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+
+main {
+    display: inline-block;
+    width:1000px;
+    margin-left: calc(50% - 500px);
+    background-color: green;
+}
+
+footer {
+    display: inline-block;
+    width:1000px;
+    margin-left: calc(50% - 500px);
+    background-color: cyan;
+}
