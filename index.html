@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-   
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronautas</title>
-<link rel="stylesheet" href="./css/font-awesome.min.css">
-<link rel="stylesheet" href="./css/main.css">
-
+    <!-- 3rd-party -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- components -->
+    <link rel="stylesheet" href="./css/button.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <header>
-        <a href="#"><img class="logo" src="./img/logo.png" alt="Logo"></a>
+    <header class="container">
+        <img class="logo" src="./img/logo.png" alt="Logo">
         <nav class="main-nav">
             <a class="link" href="#">About</a>
             <a class="link" href="#">Portfolio</a>
@@ -21,62 +25,22 @@
         </nav>
     </header>
 
-    <main> 
-        <div style="width: 50%;
-                    float: left;
-                    margin-top: 110px;">
-        
-            <h1 style="font-size: 90px;
-                       margin: 0;
-                       float: left;
-                       font-weight: normal;">404</h1>
-            
-          <p style="font-size: 60px;
-                    margin: 105px 0px 0px 0px;
-                    color: black;
-                    font-weight: bold;
-                    "> <u>Lost</u> in Space</p>
-
-            <p style="font-size: 15px;
-                    margin-top: 35px;
-                    margin-bottom: 55px;"           
-            >You have reached the edge of the universe. <br> The page you requested could not be found. <br> Don't worry and return to the previous page.</p>
-
-            <a style="font-size: 20px;
-                     color: white;
-                     border-radius: 30px;
-                     border: 2px solid ;
-                     background-color: #664488;
-                     padding: 10px 30px;
-                     display: inline-block;
-                     text-decoration: none;
-                     " href="https://www.youtube.com/watch?v=HSSKqiydHpo/">GO HOME</a>
-
-            <a style="font-size: 20px;
-                color: #664488;
-                border-radius: 30px;
-                border: 2px solid #664488;
-                padding: 10px 30px;
-                display: inline-block;
-                text-decoration: none;
-                " href="https://www.youtube.com/watch?v=HSSKqiydHpo/">BACK</a>
-
-
+    <main class="container">
+        <div class="left-column">
+            <h1 class="main-title"><span>404</span>Lost in space</h1>
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore tempore illo iure sunt consectetur itaque ratione dolorem enim non sit.</p>
+            <a href="#" class="btn">Go home</a>
+            <a href="#" class="btn btn-white">Back</a>
         </div>
-        <img style="width: 50%; 
-                    height: 500px; 
-                    float: right; 
-                    object-fit: contain;" src="./img/astronaut.gif" alt="Astronautas">
-
+        <img class="right-column" src="./img/astronaut.gif" alt="Astronautas su telefonu">
     </main>
 
     <footer class="container">
         <div class="socials">
-            
-            <a class="fa fa-facebook-square" href="https://www.facebook.com" target="_blank"></a>
-            <a class="fa fa-twitter-square"href="https://www.twitter.com" target="_blank"></a>
-            <a class="fa fa-instagram" href="https://www.instagram.com" target="_blank"></a>
-            <a class="fa fa-linkedin-square" href="https://www.linkedin.com" target="_blank"></a>
+            <a class="fa fa-facebook-square" href="https://example.com/#facebook" target="_blank"></a>
+            <a class="fa fa-twitter-square" href="https://example.com/#twitter" target="_blank"></a>
+            <a class="fa fa-instagram" href="https://example.com/#instagram" target="_blank"></a>
+            <a class="fa fa-linkedin-square" href="https://example.com/#linkedin" target="_blank"></a>
         </div>
         <p class="copyright">&copy; 2022 - All rights reserved</p>
     </footer>
